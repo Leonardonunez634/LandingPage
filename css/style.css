@@ -1,0 +1,41 @@
+:root{
+    --amarilloColor : #F6CF00;
+    --rojoColor : #AF0000;
+    --negroColor: #171313;
+    --blancoColor : #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: var(--negroColor);
+}
+
+header{
+    width: 100%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    background-color: var(--rojoColor);
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    margin-right: 10vw;
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--blancoColor);
+}
+
+nav img{
+    width: 100px;
+    margin-left: 3vw;
+}
